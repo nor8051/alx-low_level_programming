@@ -3,7 +3,7 @@
  * main - prints the string "Holberton" from a character array.
  * Return: 0 on success.
  */
-	int main(void)
+int main(void)
 	{
 	_putchar('_');
 	_putchar('p');
