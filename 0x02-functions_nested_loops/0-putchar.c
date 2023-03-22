@@ -1,12 +1,9 @@
 #include "main.h"
 	/**
- * main - Entry point
- * 
- * Description: 'the program's description'
- * @parameter: describe the parameter
- * 
- * Return: Always 0 (Success)
- */
+	 * main - print _putchar
+	 * is written by mbah
+	 * Return: 0
+	 */
 
 
 	int main(void)
