@@ -1,21 +1,26 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
- * print_array - a function that prints n elements of an array
- * @a: array name
- * @n: is the number of elements OF the array to be printed
- * Return: a and n inputs
+ * print_rev - prints a string in reverse, followed by a new line
+ * @s: string to be printed
  */
-void print_array(int *a, int n)
+void print_rev(char *s)
 {
-	int count=0;
-	while (count < n)
-	{
-		printf(%d, a[count]);
-		if (count != (n-1))
-			printf(", ");
-		count++;
-        }
-	putchar('\n);
-}		
+	int i, j, len;
 
+	i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	len = i;
+
+	for (j = len - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+
+	_putchar('\n');
+}
